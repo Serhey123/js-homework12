@@ -2,52 +2,38 @@ html {
     box-sizing: border-box;
     font-size: 10px;
     scroll-behavior: smooth;
-  }
+}
   
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-  }
+}
   
-  body {
-    background-color: $base-page-color;
-    font-family: $base-font-family;
+body {
+    font-family: sans-serif;
     font-size: 1.6rem;
-    color: $base-font-color;
     scroll-behavior: smooth;
-  }
+}
   
-  img {
+img {
     max-width: 100%;
     height: auto;
     display: block;
-  }
+}
 
-  a {
+a {
     text-decoration: none;
-  }
+}
   
-  li {
+li {
     list-style: none;
-  }
+}
   
-  .container {
-    margin: 0 auto;
-    @media screen and (max-width: $mobile-bp-max) {
-      width: $mobile-w;
-    }
-    @media screen and (min-width: $tablet-bp-min) {
-      width: $tablet-w;
-    }
-    @media screen and (min-width: $desktop-bp-min) {
-      width: $desktop-w;
-    }
-  }
   
-  .visually-hidden:not(:focus):not(:active),
+.visually-hidden:not(:focus):not(:active),
   input[type='checkbox'].visually-hidden,
   input[type='radio'].visually-hiden {
     position: absolute;
@@ -60,4 +46,4 @@ html {
     word-spacing: nowrap;
     -webkit-clip-path: inset(100%);
     clip-path: inset(100%);
-  }
+}
